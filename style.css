@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background:linear-gradient(to right, #e2e2e2, #c9d6ff);
+   color: #333;
+}
+.container{
+    margin: 0 20px;
+
+}
+.form-box{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    display: none;
+}
+.form-box.active{
+    display: block;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+input[type="text"], input[type="email"], input[type="password"], select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    color: #333;
+    background: linear-gradient(to right, #e2e2e2, gray);
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover{
+    background: linear-gradient(to right, #00f2fe, #4facfe);
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+p a{
+    color: #0d7ee1;
+    text-decoration: none;
+}
+a:hover{
+    color: #00f2fe;
+}
+.error-message{
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #ffe6e6;
+    font-size: 14px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+span{
+    color: #4facfe;
+}
+.box p{
+    text-align: center;
+    font-size: 20px;
+    color: #666;
+}
+.box button{
+    width: 100%;
+    padding: 10px;
+    margin:0 auto;
+    border: none;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
